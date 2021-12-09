@@ -1,0 +1,561 @@
+/*import css variables*/
+@import url(../CSS/Partials/variable.css);
+
+/*body*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Start Header Area*/
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 400px 0 60px;
+}
+.nav-item {
+  padding: 10px;
+}
+.nav-item :hover {
+  font-weight: bold;
+  transition: 0.5s;
+}
+/*End Header Area*/
+/*Start Banner Area*/
+.banner-1{
+  margin-top: 50px;
+}
+.site-main .site-banner img {
+  padding: 40px;
+}
+.site-main .site-banner .site-title {
+  padding: 150px 100px;
+} 
+
+.title-text {
+  color: var(--primary-color);
+  font-family: "Quicksand", sans-serif;
+}
+
+.description {
+  color: var(--text-color);
+}
+
+.site-title-2 {
+  padding: 120px 100px;
+}
+
+.how-it-works {
+  color: var(--title-color);
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+}
+.card-display {
+  height: 630px;
+  width: 800px;
+  color: white;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.box {
+  padding: 10px;
+}
+
+.box p {
+  color: var(--text-color);
+}
+.install-section {
+  padding: 30px;
+}
+
+.install-instruction {
+  padding: 0 150px;
+}
+
+.install-instruction h1 {
+  color: var(--title-color);
+  font-family: "Quicksand", sans-serif;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  min-width: 250px;
+  height: 350px;
+  max-height: 600px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+}
+
+.carousel-item span p {
+  padding-top: 5px;
+}
+
+.testimonial-pic{
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 30px;
+  max-width: 170px;
+ max-height: 150px;
+ 
+}
+.quotation-mark{
+  color: var(--text-color);
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+a .fa-solid {
+  color: var(--primary-color);
+}
+
+/* START BRAND SECTION*/
+
+.brands img {
+  height: auto;
+  width: 33%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 30px;
+}
+/* END BRAND SECTION*/
+
+/* START FOOTER*/
+.custom-footer {
+  background-color: tomato;
+}
+
+.list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.company-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.product-item a {
+  text-decoration: none;
+  color: white;
+}
+.social-icons .fab {
+  color: white;
+}
+
+.social-icons {
+  margin: 0px 10px;
+}
+
+.footer-column li {
+  padding: 5px;
+}
+
+.footer-column h6 {
+  color: white;
+  font-weight: bold;
+}
+
+.contacts p {
+  color: white;
+  font-weight: bold;
+}
+
+.legal-link a {
+  text-decoration: none;
+  color: white;
+}
+.legal-link {
+  margin: 0 10px;
+}
+
+.copyright-legal p {
+  color: white;
+}
+
+/*END FOOTER*/
+
+/*START BECOME A RIDER*/
+.site-banner-2{
+  margin-top: 100px;
+}
+.site-title-2-1 {
+  padding: 90px 120px;
+}
+.illustration-2-1 {
+  margin-left: 160px;
+}
+
+.icons-stacked {
+  padding: 50px;
+}
+
+.faqs-card {
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  min-width: 250px;
+  height: 600px;
+  max-height: 600px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  margin: 100px 210px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.faqs-card::-webkit-scrollbar {
+  width: 5px;
+}
+
+.faqs-card::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 100vw;
+}
+
+.faqs-card::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 100vw;
+}
+
+@supports (scrollbar-color: #c4c4c4 white) {
+  * {
+    scrollbar-color: #c4c4c4 white;
+    scrollbar-width: thin;
+  }
+}
+
+.question {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/*END BECOME A RIDER*/
+
+/*START ABOUT*/
+
+.banner-3{
+  margin-top: 100px;
+  padding: 0px 60px;
+}
+.site-banner-3-1 {
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.illustration-3-1 {
+  padding-left: -100px;
+}
+
+.hr-2 {
+  color: var(--text-color);
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+site-banner-3-1 p {
+  padding: 100px;
+  margin: 50px 50px;
+}
+.description-3-1 {
+  margin: 100px 70px;
+}
+
+.description-3-1 p {
+  padding: 50px;
+  margin: 50px;
+}
+
+.position-holder {
+  font-weight: bold;
+}
+
+.profile-pic-3 {
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 30px;
+}
+
+/*END ABOUT*/
+/*START ABOUT*/
+.bio-image {
+  float: right;
+  margin: 20px 140px;
+}
+.bio-text {
+  text-align: justify;
+}
+.bio-name {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.bio-position {
+  font-weight: bold;
+}
+/*END ABOUT*/
+/*START BLOG*/
+.blog-title {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+.date {
+  color: var(--text-color);
+}
+.card-blog-post {
+  background: #f6f6f6;
+  width: 300px;
+  height: 500px;
+}
+.card-blog-post:hover{
+  box-shadow: var(--box-shadow);
+  background-color: white;
+}
+.card-recent {
+  box-shadow: var(--box-shadow);
+}
+.blog-link {
+  text-decoration: none;
+  color: dimgrey;
+  opacity: 60%;
+}
+
+.blog-card {
+  text-decoration: none;
+  color: dimgrey;
+  opacity: 80%;
+}
+.blog-card a {
+  text-decoration: none;
+}
+.blog-card :hover {
+  background-color: white;
+  opacity: 100%;
+}
+
+.date {
+  color: dimgrey;
+  opacity: 60%;
+}
+.category {
+  color: dimgrey;
+  opacity: 60%;
+}
+
+/*END BLOG*/
+/*START POLICY*/
+.policy-content h1{
+  font-family: "Quicksand", sans-serif;
+  color: var(--primary-color);
+
+}
+
+.policy-content h4{
+  color: var(--primary-color);
+  font-family: "Quicksand", sans-serif;
+}
+/*END POLICY*/
+
+
+/*MEDIA QUERY*/
+@media (max-width: 765px) {
+  
+  .card-display {
+    height: 2000px;
+    max-width: 300px;
+    flex-direction: row;
+  }
+
+  .card {
+    height: 500px;
+    text-align: center;
+    width: 300px;
+  }
+  .faqs-card {
+    width: 300px;
+    text-align: center;
+  }
+
+  .illustration-2-1 {
+    margin-left: 90px;
+  }
+
+  .site-title-2-1 {
+    padding: 160px 180px;
+  }
+
+  .site-banner-3-1 {
+    margin-top: 60px;
+    margin-bottom: -50px;
+    text-align: center;
+  }
+
+
+  .description-3-1 {
+    margin: 100px 90px;
+  }
+
+  .hr-2 {
+    color: var(--text-color);
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .blog-image{
+    width: 350px;
+    height: 250px;
+    
+  }
+
+  .card-blog-post{
+    margin: 30px;
+    min-width: 200px;
+    
+  }
+
+  .card-blog-post-1{
+    height: 550px;
+  }
+  .illustration-2-1{
+    margin-left: 10px;
+  }
+  .site-title-2{
+    padding-left: 60px;
+    
+  }
+  .site-title-2 h1 h6{
+    margin-left: 100px;
+  }
+  .site-title-2-1{
+    padding: 160px 70px;
+  }
+  .site-title-2-1 a{
+    padding-right:0px;
+  }
+  .site-title-2-1 a{
+    margin-left: -25px;
+  }
+  .site-title-2-1 h1{
+  margin-left: 0px;
+
+  }
+  .install-instruction {
+    padding: -100px 100px;
+    margin: 0px;
+  }
+  .install-section {
+    padding: 0px;
+  }
+  .install-section h1{
+    padding: 0px;
+    margin-left: -60px;
+  }
+  .install-section a{
+    padding: 0px;
+    margin-left: -60px;
+  }
+  .site-main .site-banner img {
+    padding: 0px;
+  }
+  .site-main .site-banner .site-title{
+    padding: 50px 40px;
+  }
+  .site-title-2{
+   padding: 50px 40px;
+  }
+
+  .site-title-2 img{
+    width: 300px;
+    height: 200px;
+  }
+  .icons-stacked{
+    padding: 0px;
+  }
+  .description-3-1{
+    padding: 0px;
+  }
+  .description-3-1 {
+    margin: 70px 30px;
+    
+  }
+
+  .description-3-1 p {
+    padding: 10px;
+    margin: 0px;
+  }
+  .recent-card{
+    margin: 0px;
+  }
+
+  .blog-cards{
+    margin: 0px 0px;
+  }
+  
+}
+
+@media (max-width: 400px){
+  .card-blog-post{
+    margin: 30px;
+    min-width: 200px;
+    
+  }
+
+  .card-blog-post-1{
+    height: 600px;
+  }
+
+  .blog-image{
+    width: 250px;
+    height: 150px;
+    min-width: 200px;
+    
+  }
+
+  .blog-title{
+    font-size: 25px;
+  }
+
+  .site-banner-3-1 h6{
+    padding: 0px;
+  }
+
+}
+@media (max-width: 1050px){
+  
+  .card-blog-post{
+    margin-top: 40px;
+  }
+}
+
+
+
