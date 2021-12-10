@@ -484,11 +484,15 @@ site-banner-3-1 p {
   }
   .install-img{
     padding-left: 55px;
+    width: 250px;
+    height: auto;
   }
 
   .install-instruction{
+    
+    margin-left: -125px;
     padding-left: 0px;
-    padding-right: 30px;
+    padding-right: 0px;
     padding-top: 440px;
     text-align: center;
   }
