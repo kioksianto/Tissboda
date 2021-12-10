@@ -390,6 +390,10 @@ site-banner-3-1 p {
 
 /*MEDIA QUERY*/
 @media (max-width: 765px) {
+
+  body{
+    overflow-x: hidden;
+  }
   
   .card-display {
     height: 2000px;
@@ -547,6 +551,9 @@ site-banner-3-1 p {
 
   .site-banner-3-1 h6{
     padding: 0px;
+  }
+  body{
+    overflow-x: hidden;
   }
 
 }
