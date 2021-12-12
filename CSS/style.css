@@ -5,8 +5,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  max-width:100%; 
-  overflow-x:hidden; 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
 }
 
 /*Start Header Area*/
@@ -128,10 +130,8 @@ a .fa-solid {
 /* START BRAND SECTION*/
 
 .brands img {
-  height: auto;
-  width: 33%;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  max-height: 280px;
   margin: 30px;
 }
 /* END BRAND SECTION*/
@@ -324,6 +324,90 @@ site-banner-3-1 p {
 .bio-position {
   font-weight: bold;
 }
+
+.contact-form{
+  width: 500px;
+  height: 600px;
+  color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  
+}
+form{
+  margin: 35px;
+  margin-left: 50px;
+}
+
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border:  1px solid #c4c4c4;
+  border-radius: 9px;
+  outline: none;
+}
+
+.text-area{
+  height: 150px;
+}
+.submit{
+  border-radius: 40px;
+ border: none;
+ background-color: var(--primary-color);
+  color: #FFF;
+  width: 250px;
+  height: 50px;
+  margin:  20px 80px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s ease;
+
+}
+.submit:hover{
+  background-color: #FFF;
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+#status{
+  width: 300px;
+  max-width: 300px;
+  height: 50px;
+  max-height: 90px;
+  margin: -50px 100px;
+  text-align: center;
+  font-weight: bold;
+
+}
+#status.success{
+  color: var(--primary-color);
+  animation: status 4s ease forwards;
+}
+
+#status.error{
+  color: var(--primary-color);
+  animation: status 4s ease forwards;
+}
+
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all; 
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all; 
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none; 
+  }
+}
+
 /*END ABOUT*/
 /*START BLOG*/
 .blog-title {
@@ -376,6 +460,30 @@ site-banner-3-1 p {
 }
 
 /*END BLOG*/
+
+.whatsapp_float {
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+	background-color:#6bcb5c;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:50px;
+  z-index:100;
+  text-align: center;
+ 
+}
+
+.whatsapp-icon {
+	margin-top:16px; 
+ 
+  
+
+}
+
 /*START POLICY*/
 .policy-content h1{
   font-family: "Quicksand", sans-serif;
@@ -545,6 +653,16 @@ site-banner-3-1 p {
   .blog-cards{
     margin: 0px 0px;
   }
+  .whatsapp-icon {
+    margin-top:10px;
+      }
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
   
 }
 
@@ -573,8 +691,10 @@ site-banner-3-1 p {
   .site-banner-3-1 h6{
     padding: 0px;
   }
-  body{
-    overflow-x: hidden;
+ .install-img{
+    padding-left: 300px;
+    width: 250px;
+    height: auto;
   }
 
 }
