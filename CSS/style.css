@@ -47,16 +47,20 @@ body {
 }
 
 .site-title-2 {
-  padding: 120px 100px;
+  padding: 70px;
+ 
 }
+.illustration-2 img{
+margin-top: -230px;
 
+}
 .how-it-works {
   color: var(--title-color);
   font-family: "Quicksand", sans-serif;
   padding: 30px;
 }
 .card-display {
-  height: 630px;
+  height: 690px;
   width: 800px;
   color: white;
   padding: 20px;
@@ -529,6 +533,13 @@ form {
   .illustration-2-1 {
     margin-left: 90px;
   }
+
+  .illustration-2 img{
+  
+  margin-top: -80px;
+  margin-bottom: 30px;
+    
+    }
 
   .site-title-2-1 {
     padding: 160px 180px;
