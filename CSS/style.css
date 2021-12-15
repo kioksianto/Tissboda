@@ -712,6 +712,10 @@ form {
     margin-left: -45px;
     
   }
+  .blog-image {
+    width: 350px;
+    height: 150px;
+  }
 }
 
 @media (max-width: 394px){
