@@ -698,21 +698,54 @@ form {
   .site-banner-3-1 h6 {
     padding: 0px;
   }
-  .install-img {
-    padding-left: 300px;
-    width: 250px;
-    height: auto;
-  }
+  
+ 
+}
 
+@media (max-width: 450px){
   .install-img img {
-    margin-left: -250px;
+    margin-right: 50px;
     width: 250px;
   }
 
   .install-instruction {
-    margin-left: -50px;
+    margin-left: -45px;
+    
   }
 }
+
+@media (max-width: 394px){
+  .install-img img {
+    margin-left: 50px;
+    width: 250px;
+  }
+
+  .install-instruction {
+    margin-left: -45px;
+  }
+}
+
+@media (max-width: 380px){
+  .install-img img {
+    margin-left: 20px;
+    width: 250px;
+  }
+
+  .install-instruction {
+    margin-left: -45px;
+  }
+}
+@media (max-width: 374px){
+  .install-img img {
+    margin-left: 40px;
+    width: 250px;
+  }
+
+  .install-instruction {
+    margin-left: -60px;
+  }
+}
+
 @media (max-width: 1050px) {
   .card-blog-post {
     margin-top: 40px;
