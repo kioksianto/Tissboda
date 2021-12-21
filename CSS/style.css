@@ -500,6 +500,7 @@ form {
 
 /*MEDIA QUERY*/
 @media (max-width: 765px) {
+ 
   .card-display {
     height: 2000px;
     max-width: 300px;
@@ -715,6 +716,13 @@ form {
   .blog-image {
     width: 350px;
     height: 150px;
+  }
+  .navbar-brand img{
+    position: relative;
+    left: 200px;
+    top: 40px;
+    width: 100px;
+
   }
 }
 
